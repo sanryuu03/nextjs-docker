@@ -10,7 +10,7 @@ export default function Home() {
     return (
         <div className="min-h-dvh mx-auto max-w-screen-sm border-2 border-lime-500 rounded-xl bg-sky-300 flex flex-col items-center justify-center">
             <div className="text-center mb-4">
-                <p className="text-xl font-semibold">You clicked {count} times</p>
+                <p className="text-8xl font-semibold">You clicked {count} times</p>
             </div>
             <div className="flex space-x-32">
                 <button onClick={() => setCount((currentNumber) => currentNumber - 1)} className="focus:outline-none">
