@@ -1,0 +1,8 @@
+services:
+
+  nextjs-docker:
+    container_name: nextjs-docker
+    build: .
+    image: "nextjs-docker:1.0.0"
+    ports:
+      - 3000:3000
